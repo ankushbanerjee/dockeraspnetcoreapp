@@ -4,10 +4,10 @@ Clone this repository :
 git clone https://github.com/ankushbanerjee/dockeraspnetcoreapp.git
 
 Now, build and run the Docker image
-Step1. Open a command prompt and navigate to your project folder.
-Step2. Use the following commands to build and run your Docker image:
- docker build -t aspnetapp .
- docker run -d -p 8080:80 --name myapp aspnetapp
+  Step1. Open a command prompt and navigate to your project folder.
+  Step2. Use the following commands to build and run your Docker image:
+           docker build -t aspnetapp .
+           docker run -d -p 8080:80 --name myapp aspnetapp
 
 On Your docker desktop you should see something like this:
 
