@@ -8,12 +8,12 @@ pipeline{
 
 	stages {
 
-		stage('Build') {
+		/*stage('Build') {
 
 			steps {
 				sh 'docker build -t aspnetapp .'
 			}
-		}
+		}*/
 
 		stage('Login') {
 
